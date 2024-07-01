@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Cristão</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4682b4;
+        }
+        .devotional, .sermon, .prayer, .blog, .resources, .events, .contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4682b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #5a9bd3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Site Cristão</h1>
+</header>
+
+<nav>
+    <a href="#devotionals">Devocionais</a>
+    <a href="#sermons">Sermões</a>
+    <a href="#prayer">Pedidos de Oração</a>
+    <a href="#blog">Blog</a>
+    <a href="#resources">Recursos</a>
+    <a href="#events">Eventos</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<div class="container">
+    <section id="devotionals" class="devotional">
+        <h2>Devocionais Diários</h2>
+        <p>Reflexões e leituras bíblicas diárias para fortalecer sua fé.</p>
+    </section>
+
+    <section id="sermons" class="sermon">
+        <h2>Sermões e Estudos Bíblicos</h2>
+        <p>Assista a sermões e participe de estudos bíblicos online.</p>
+    </section>
+
+    <section id="prayer" class="prayer">
+        <h2>Pedidos de Oração</h2>
+        <p>Envie seus pedidos de oração e ore pelos outros.</p>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <p>Artigos sobre fé, vida cristã, testemunhos e muito mais.</p>
+    </section>
+
+    <section id="resources" class="resources">
+        <h2>Recursos para Crianças e Famílias</h2>
+        <p>Materiais para ensinar a Bíblia às crianças e apoiar famílias.</p>
+    </section>
+
+    <section id="events" class="events">
+        <h2>Calendário de Eventos</h2>
+        <p>Informações sobre eventos da igreja, grupos de estudo, conferências e muito mais.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <form class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</div>
+
+</body>
+</html>
